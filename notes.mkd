@@ -1,0 +1,27 @@
+## `roslaunch`
+
+- under `/package_name/launch` make a file `<naninani>_bringup.launch`
+
+```xml
+<launch>
+    <include file="$(find rosplan_stage_demo)/launch/empty_stage_single_robot.launch" />
+    <node pkg="second_coursework" type="roomservice_node.py" name="roomservice" />
+</launch>
+```
+
+## `map`
+
+```
+10.7
+5.97
+4.71
+0
+
+3.78
+8.33
+13
+```
+
+## `rosbag` 
+
+- `rosbag play` 

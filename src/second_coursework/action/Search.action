@@ -1,0 +1,8 @@
+std_msgs/String room
+---
+std_msgs/String[] items
+int32[] item_counts
+time stamp
+---
+std_msgs/String[] items
+int32[] item_counts

@@ -1,0 +1,5 @@
+#!/bin/python3
+
+from nodes.main_node_node import main # type: ignore
+
+if __name__ == '__main__': main()

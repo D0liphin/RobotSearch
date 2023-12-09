@@ -1,0 +1,8 @@
+<launch>
+    <include file="$(find rosplan_stage_demo)/launch/empty_stage_single_robot.launch" />
+    <node pkg="rqt_image_view" type="rqt_image_view" name="rqt_image_view" />
+    <node pkg="smach_viewer" type="smach_viewer.py" name="smach_viewer" />
+    <node pkg="rosbag" type="play" args="$(find second_coursework)/../../itr1.bag" name="itr1bag" />
+    <!-- <node pkg="second_coursework" type="roomservice" name="roomservice" />
+    <node pkg="second_coursework" type="main_node" name="main_node" /> -->
+</launch>

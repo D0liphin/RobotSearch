@@ -1,0 +1,6 @@
+#!/bin/python3
+
+from nodes.roomservice_node import main # type: ignore
+
+if __name__ == '__main__': main()
+
